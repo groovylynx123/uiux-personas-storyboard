@@ -1,0 +1,79 @@
+#cs1300-gallery {
+  background-color: lightblue;
+}
+
+/* Uncomment below if images are way too big.
+Selects all image tags and makes them 500px;
+ */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  
+}
+
+
+body {
+  font-family:'Lato';
+  padding-left: 20%;
+  padding-right:20%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  align-items: center;
+}
+
+h1 {
+  font-weight: bold;
+  color:#0b5394;
+  text-align: center;
+}
+
+h2 {
+  text-align:center;
+  margin: 5%;
+}
+
+
+.gallery-container {
+  /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  flex: 1;
+  align-items:center
+  
+  
+}
+
+.project-section-header, .project-title {
+  color: #6fa8dc
+  
+}
+
+.interview-questions {
+  font-weight: 900px;
+  color:#0b5394;
+
+}
+
+li {
+  margin-top:2%
+}
+
+h4 {
+  font-weight:bolder;
+}
+
+.lower {
+  justify-content: center;
+}
+
+button {
+  
+  width: 210px;
+  height:70px;
+  padding:10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:16px;
+  margin:20px;
+}
+
+

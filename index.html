@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <title>CS 1300: UI/UX Portfolio</title>
+    <!-- import javascript variables and functions -->
+    <script src="app.js" defer></script>
+    <!-- import CSS styles -->
+    <link rel="stylesheet" href="styles.css" /> 
+  </head>
+
+  <!-- page content goes into <body> -->
+  <body>
+    <div id="projects">
+      <div id="project-one">
+        <h1>Panini Press: User Experience and User Interaction</h1>
+        <img class="panini-press-cartoon" src="./blue-background.png" alt="Panini Press Cartoon">
+        <h2 class="project-section-header">Project Overview</h2>
+        <p class="project-description">This project was for CSCI1300: User Interface and User Interaction focusing on Personas and Story Boarding.
+          Our task was to observe real users interacting with an interface, interview these individuals about their experiences, 
+          create personas based on these users, and illustrate a storyboard for one of your personas. I choose to analyze the user interaction with the <b>Panini Press</b>.
+        </p>
+        <h2 class="project-section-header"> Part 1: What is a Panini Press? </h2>
+        <p class="project-description">
+          A Panini Press is a machine that holds a sandwich together by compacting it and also heating the outer layers of the sandwich. This is especially useful when the user wants to make a panini or grilled sandwich, but doesn’t want to use a griddle or frying pan. 
+        <br>
+        <br>
+          There are 5 main components to the Panini Press: the on/off bulb, temperature knob, handle, panini press top, grills. There are also 2 vital accessories: the non-stick cooking oil and the tongs. 
+        <br>
+        <br>
+          The user flow sets the temperature using the temperature knob in which the on/off bulb will light up.  The user sprays the grills using the non-stick cooking oil, uses the tongs to pick up the sandwich, and places it onto the grills. Next, the user uses the handle to lower the panini press top and let it sit ontop of the sandwich until the user feels satisfied with the amount of grill. The user then uses the handle to lift the panini press top, uses the tongs to remove the sandwich from the grill, and places their grilled sandwich onto their plate. 
+        </p>
+        <img id="panini-press" src="./panini-press.png" alt="Panini Press Sketch">
+
+        <h2 class="project-section-header">Part 2: Recording Observations</h2>
+        <p>
+          For the overall experience, I noticed that there was a general trend that users really liked how the Panini Press grilled their sandwich really quickly – around 20 seconds. However, there were some roadbumps in the user experience relating to the timing, the temperature knob, and spraying the grill.
+        </p>
+
+        <ul>
+          <li>Many users had the difficulty with timing. One accidentally burnt their sandwich, one other under-toasted their sandwich, and one said that they toasted enough to satisfy their need.</li>
+          <li>Many users didn’t change the knob because they assumed the previous temperature would suit their needs. However, for both users who didn’t change the knob, they were not fully satisfied with the amount of their sandwiches’ toastiness. </li>
+          <li>Some users would spray the bottom grill but forget to spray the top grill, causing the top bread to stick onto the top part of the Panini Press, making them have to try to take it off using the tongs. </li>
+          <li>All users loved the use of tongs. It made it really easy to carry the sandwich onto the Panini Press, put the sandwich together if the sandwich fell over, and scrap the top bun off the top part of the Press if it got stuck.</li>
+        </ul>
+
+
+        <h2 class="project-section-header">Interview Reponses</h2>
+
+        <p class="interview-questions"><b>How was your experience using the Panini Press?</b></p>
+        <ul>
+          <li>
+            Person 1: Love it! I make a Panini every other day.
+          </li>
+          <li>
+            Person 2: Confusing. It was my first time using it & wasn’t sure how long to put the sandwich in
+          </li>
+          <li>
+            Person 3: Great. It gets the job done.
+        </ul>
+        <p class="interview-questions"><b>How often do you use the Panini Press?</b></p>
+        <ul>
+          <li>
+            Person 1: All the time
+          </li>
+          <li>
+            Person 2: First time today.
+          </li>
+          <li>
+            Person 3: A few times each semester.
+        </ul>
+        <p class="interview-questions"><b>What do you like about the Panini Press?</b></p>
+        <ul>
+          <li>
+            Person 1: It is really quick to toast the sandwich and gets the job done.
+          </li>
+          <li>
+            Person 2: It heats my sandwich really fast.
+          </li>
+          <li>
+            Person 3: It is really easy to use after the first time you learn it.
+        </ul>
+        <p class="interview-questions"><b>What do you dislike about the Panini Press?</b></p>
+        <ul>
+          <li>
+            Person 1: Sometimes the on/off button doesn’t work, so I can’t tell if it is on.
+          </li>
+          <li>
+            Person 2: There is no timer to tell me when to stop, so I burnt my sandwich today :(
+          </li>
+          <li>
+            Person 3: Since the top part of the machine is angled, it sometimes slants my sandwich until it topples.
+        </ul>
+        <p class="interview-questions"><b>Would you change anything about the Panini Press?</b></p>
+        <ul>
+          <li>
+            Person 1: Make sure the on/off button works.
+          </li>
+          <li>
+            Person 2: Have a timer to tell you when to take the sandwhich off or a window to see the condition of your sandwich.
+          </li>
+          <li>
+            Person 3: Instead of the Panini Press at an angle, it would be nice if it came from right above
+        </ul>
+        <p class="interview-questions"><b>Does the Panini Press accomplish your user need?</b></p>
+        <ul>
+          <li>
+            Person 1: Yes
+          </li>
+          <li>
+            Person 2: No because I burnt my sandwich, but yes if done correctly.
+          </li>
+          <li>
+            Person 3: Yes
+        </ul>
+
+
+        <h2 class="project-section-header">Part 3: Personas</h2>
+        <h3 class="project-section-subheader">Persona 1: Connor</h3>
+        <p>Connor is a freshman at Brown University and just discovered that there is a Panini Press Station at the Ratty.  He is excited to use the Paninin Press, but quickly gets confused on how to use it because there are no instructions. 
+          <br>
+          <br>
+          Some of the interface problems that Conor face are: there was no UI explaining how long the sandwich should in, there is no general guide of what each temperature will result in the sandwich, the on/off bulb is off even though the Panini Press is on, and Connor can’t see the state of his sandwich when he put it in the Panini Press.
+        </p>
+        <p>
+          Connor represents the users for the Panini Press because all users of the Panini Press were at some point a first time user. Therefore, this persona is a very common persona and many users may have had the same first experience as our Persona #1 did. This Persona gives a perspective of what the first-time user may experience and the interface problems that that person may have faced.
+        </p>
+        <img src="./persona-1.png" alt="Persona 1: Connor, a first-time user with the Panini Press">
+        <br>
+        <h3 class="project-section-subheader">Persona 2: Lindsey</h3>
+        <p>Lindsey is a senior at Brown University and is a long-time user of the Panini Press. She loves using the Panini Press but still faces some problems while using it. </p>
+        
+        <p>
+          The On/Off bulb is off even though she knows that it is on and has the temperature set. There is no UI, such as a timer or clock, to help Lindsey know how long she should leave the sandwich in the Panini Press. Lindsey can not see the state of the sandwich because the visibility gets closed by the Panini Press top, so she can’t see if the sandwich is not grilled enough, grilled just right, or burnt.
+        </p>
+    
+        <p>Lindsey represents the users of the Panini Press because all the users eventually have a good understanding of the Panini Press works after using it a couple of times.  This persona gives a perspective of experienced users who know how to use the Panini Press but still face interface problems with it. </p>
+        <img src="./persona-2.png" alt="Persona 2: Lindsey, a long-time user with the Panini Press">
+
+
+        <h2 class="project-section-header">Part 4: Story Board</h2>
+        <img src="./story-board.png" alt="Story Board on Connor">
+
+        <h2 class="project-section-header">Part 5: Project Takeaways</h2>
+        <p>
+          From the observations and user interviews, I was able to understand the user interface and user experience of the Panini Press. Overall, the Panini Press is a great tool that compacts a sandwich and toasts it. Its strength is that it is really fast in heating up the sandwich. Its weaknesses are that there are no indications of the timing for when the sandwich is ready, the on/off bulb is broken, and sometimes people didn’t know to spray the top side of the Panini Press with cooking oil. However, overall, it is a great tool that fulfills the users' needs and most users recommend this product. 
+        </p>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+
+      </div>
+
+
+
+    </div>
+  </body>
+
+</html>
